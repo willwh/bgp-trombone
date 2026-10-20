@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BGP Trombone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <h1>bgp-trombone</h1>
+      <p>Does your route cross an ocean and come back?</p>
+    </div>
+    <form id="query" class="query" autocomplete="off">
+      <label>Prefix or IP
+        <input name="prefix" required value="5.188.125.0/24" spellcheck="false">
+      </label>
+      <label>From AS
+        <input name="focusAsn" value="852" spellcheck="false" inputmode="numeric">
+      </label>
+      <label>Source
+        <input name="sourceLocation" placeholder="from RIS peer" spellcheck="false">
+      </label>
+      <label>Destination
+        <input name="destLocation" value="Manassas, US" spellcheck="false">
+      </label>
+      <label class="small">Jump ≥ ms
+        <input name="jumpThresholdMs" value="40" inputmode="numeric">
+      </label>
+      <button type="submit">Analyze</button>
+      <details class="mtr">
+        <summary>Trace (MTR)</summary>
+        <textarea name="mtrText" rows="8" spellcheck="false"
+          placeholder="Paste mtr -rwb, mtr --json, or an abridged trace with 'N ms' per hop"></textarea>
+      </details>
+    </form>
+  </header>
+
+  <main id="app">
+    <section id="empty" class="card empty">
+      <p>Enter a prefix and the AS you're looking from, optionally paste an MTR, then <strong>Analyze</strong>.</p>
+    </section>
+  </main>
+
+  <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

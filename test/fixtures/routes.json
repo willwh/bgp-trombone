@@ -1,0 +1,54 @@
+[
+ {
+  "match": "looking-glass",
+  "file": "looking-glass.json"
+ },
+ {
+  "match": "bgp.tools/asns.csv",
+  "file": "asns.csv"
+ },
+ {
+  "match": "resource=99.199.69.65&",
+  "file": "network-info-99.199.69.65.json"
+ },
+ {
+  "match": "resource=154.11.11.179&",
+  "file": "network-info-154.11.11.179.json"
+ },
+ {
+  "match": "resource=80.150.170.94&",
+  "file": "network-info-80.150.170.94.json"
+ },
+ {
+  "match": "resource=62.154.5.1&",
+  "file": "network-info-62.154.5.1.json"
+ },
+ {
+  "match": "resource=62.112.216.66&",
+  "file": "network-info-62.112.216.66.json"
+ },
+ {
+  "match": "resource=5.188.125.10&",
+  "file": "network-info-5.188.125.10.json"
+ },
+ {
+  "match": "netfac?local_asn=3320",
+  "file": "pdb-netfac-3320.json"
+ },
+ {
+  "match": "netfac?local_asn=199524",
+  "file": "pdb-netfac-199524.json"
+ },
+ {
+  "match": "netixlan?asn=3320",
+  "file": "pdb-netixlan-3320.json"
+ },
+ {
+  "match": "netixlan?asn=199524",
+  "file": "pdb-netixlan-199524.json"
+ },
+ {
+  "match": "/api/ix?",
+  "file": "pdb-ix.json"
+ }
+]

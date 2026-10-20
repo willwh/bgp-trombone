@@ -1,0 +1,24 @@
+{
+  "name": "bgp-trombone",
+  "version": "0.1.0",
+  "description": "Find and visualize BGP 'trombone' routes: paths that cross an ocean and come back.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "bin": {
+    "bgp-trombone": "src/cli.ts"
+  },
+  "scripts": {
+    "analyze": "node src/cli.ts analyze",
+    "serve": "node src/cli.ts serve",
+    "demo": "node src/cli.ts serve --fixtures test/fixtures",
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^5.9.3"
+  }
+}

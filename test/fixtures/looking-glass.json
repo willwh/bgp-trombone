@@ -1,0 +1,236 @@
+{
+ "status": "ok",
+ "data": {
+  "rrcs": [
+   {
+    "rrc": "RRC00",
+    "location": "Amsterdam, Netherlands",
+    "peers": [
+     {
+      "peer": "154.11.12.212",
+      "as_path": "852 3320 199524 199524 202422",
+      "asn_origin": 202422,
+      "community": "",
+      "largeCommunity": "",
+      "extendedCommunity": "",
+      "community_info": {},
+      "last_updated": "2026-10-02T16:05:56",
+      "prefix": "5.188.125.0/24",
+      "peer_location": "Edmonton, CA"
+     },
+     {
+      "peer": "198.51.100.10",
+      "as_path": "6939 1299 199524 199524 202422",
+      "asn_origin": 202422,
+      "community": "",
+      "largeCommunity": "",
+      "extendedCommunity": "",
+      "community_info": {},
+      "last_updated": "2026-10-02T16:05:56",
+      "prefix": "5.188.125.0/24",
+      "peer_location": "Fremont, US"
+     },
+     {
+      "peer": "198.51.100.11",
+      "as_path": "7018 1299 199524 199524 202422",
+      "asn_origin": 202422,
+      "community": "",
+      "largeCommunity": "",
+      "extendedCommunity": "",
+      "community_info": {},
+      "last_updated": "2026-10-02T16:05:56",
+      "prefix": "5.188.125.0/24",
+      "peer_location": "Dallas, US"
+     },
+     {
+      "peer": "198.51.100.12",
+      "as_path": "3356 174 199524 199524 202422",
+      "asn_origin": 202422,
+      "community": "",
+      "largeCommunity": "",
+      "extendedCommunity": "",
+      "community_info": {},
+      "last_updated": "2026-10-02T16:05:56",
+      "prefix": "5.188.125.0/24",
+      "peer_location": "Denver, US"
+     },
+     {
+      "peer": "198.51.100.13",
+      "as_path": "6461 2914 199524 199524 202422",
+      "asn_origin": 202422,
+      "community": "",
+      "largeCommunity": "",
+      "extendedCommunity": "",
+      "community_info": {},
+      "last_updated": "2026-10-02T16:05:56",
+      "prefix": "5.188.125.0/24",
+      "peer_location": "San Jose, US"
+     },
+     {
+      "peer": "198.51.100.14",
+      "as_path": "812 3257 199524 199524 202422",
+      "asn_origin": 202422,
+      "community": "",
+      "largeCommunity": "",
+      "extendedCommunity": "",
+      "community_info": {},
+      "last_updated": "2026-10-02T16:05:56",
+      "prefix": "5.188.125.0/24",
+      "peer_location": "Toronto, CA"
+     },
+     {
+      "peer": "198.51.100.15",
+      "as_path": "577 1299 199524 199524 202422",
+      "asn_origin": 202422,
+      "community": "",
+      "largeCommunity": "",
+      "extendedCommunity": "",
+      "community_info": {},
+      "last_updated": "2026-10-02T16:05:56",
+      "prefix": "5.188.125.0/24",
+      "peer_location": "Montreal, CA"
+     },
+     {
+      "peer": "198.51.100.16",
+      "as_path": "11537 174 199524 199524 202422",
+      "asn_origin": 202422,
+      "community": "",
+      "largeCommunity": "",
+      "extendedCommunity": "",
+      "community_info": {},
+      "last_updated": "2026-10-02T16:05:56",
+      "prefix": "5.188.125.0/24",
+      "peer_location": "Chicago, US"
+     },
+     {
+      "peer": "198.51.100.17",
+      "as_path": "20473 2914 199524 199524 202422",
+      "asn_origin": 202422,
+      "community": "",
+      "largeCommunity": "",
+      "extendedCommunity": "",
+      "community_info": {},
+      "last_updated": "2026-10-02T16:05:56",
+      "prefix": "5.188.125.0/24",
+      "peer_location": "Seattle, US"
+     },
+     {
+      "peer": "198.51.100.18",
+      "as_path": "3320 199524 199524 202422",
+      "asn_origin": 202422,
+      "community": "3320:1276 3320:9010",
+      "largeCommunity": "",
+      "extendedCommunity": "",
+      "community_info": {
+       "regular": {
+        "3320:1276": {
+         "description": "Route learned in Frankfurt",
+         "original": "3320:1276"
+        },
+        "3320:9010": {
+         "description": "Peer route",
+         "original": "3320:9010"
+        }
+       },
+       "large": {},
+       "extended": {}
+      },
+      "last_updated": "2026-10-02T16:05:56",
+      "prefix": "5.188.125.0/24",
+      "peer_location": "Frankfurt, DE"
+     }
+    ]
+   },
+   {
+    "rrc": "RRC01",
+    "location": "London, United Kingdom",
+    "peers": [
+     {
+      "peer": "5.57.80.113",
+      "as_path": "15692 2914 199524 199524 202422",
+      "asn_origin": 202422,
+      "community": "2914:410",
+      "largeCommunity": "",
+      "extendedCommunity": "",
+      "community_info": {
+       "regular": {
+        "2914:410": {
+         "description": "NTT and customer routes",
+         "original": "2914:410"
+        }
+       },
+       "large": {},
+       "extended": {}
+      },
+      "last_updated": "2026-10-02T16:05:56",
+      "prefix": "5.188.125.0/24",
+      "peer_location": "London, GB"
+     },
+     {
+      "peer": "5.57.80.210",
+      "as_path": "8218 6461 174 199524 199524 202422",
+      "asn_origin": 202422,
+      "community": "",
+      "largeCommunity": "",
+      "extendedCommunity": "",
+      "community_info": {},
+      "last_updated": "2026-10-02T16:05:56",
+      "prefix": "5.188.125.0/24",
+      "peer_location": "Paris, FR"
+     },
+     {
+      "peer": "5.57.80.211",
+      "as_path": "13030 3320 199524 199524 202422",
+      "asn_origin": 202422,
+      "community": "",
+      "largeCommunity": "",
+      "extendedCommunity": "",
+      "community_info": {},
+      "last_updated": "2026-10-02T16:05:56",
+      "prefix": "5.188.125.0/24",
+      "peer_location": "Zurich, CH"
+     },
+     {
+      "peer": "5.57.80.212",
+      "as_path": "1273 1299 199524 199524 202422",
+      "asn_origin": 202422,
+      "community": "",
+      "largeCommunity": "",
+      "extendedCommunity": "",
+      "community_info": {},
+      "last_updated": "2026-10-02T16:05:56",
+      "prefix": "5.188.125.0/24",
+      "peer_location": "London, GB"
+     }
+    ]
+   },
+   {
+    "rrc": "RRC23",
+    "location": "Singapore",
+    "peers": [
+     {
+      "peer": "27.111.228.6",
+      "as_path": "18106 2914 199524 199524 202422",
+      "asn_origin": 202422,
+      "community": "2914:2000",
+      "largeCommunity": "",
+      "extendedCommunity": "",
+      "community_info": {
+       "regular": {
+        "2914:2000": {
+         "description": "Asia",
+         "original": "2914:2000"
+        }
+       },
+       "large": {},
+       "extended": {}
+      },
+      "last_updated": "2026-10-02T16:05:56",
+      "prefix": "5.188.125.0/24",
+      "peer_location": "Singapore, SG"
+     }
+    ]
+   }
+  ]
+ }
+}

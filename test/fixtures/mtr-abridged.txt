@@ -1,0 +1,5 @@
+ 2. s99-199-69-65.bc.hsia.telus.net    1.0 ms   TELUS, BC
+12. 154.11.11.179                     56.6 ms   TELUS, Toronto
+13. 80.150.170.94                     55.8 ms   Deutsche Telekom (AS3320), Toronto
+14. f-eh3-i.F.DE.NET.DTAG.DE         149.5 ms   Deutsche Telekom, Frankfurt
+18. 62.112.216.66                    152.7 ms   G-Core (AS199524), Europe
